@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/enroll_alert_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Enroll as: "
+        android:textSize="8pt" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <RadioButton
+            android:id="@+id/enroll_alert_mentee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Mentee" />
+
+        <RadioButton
+            android:id="@+id/enroll_alert_mentor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mentor" />
+
+    </RadioGroup>
+</LinearLayout>

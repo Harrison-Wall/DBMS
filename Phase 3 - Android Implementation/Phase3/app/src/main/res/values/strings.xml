@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">School Database</string>
+    <string-array name="grades">
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+    </string-array>
+    <string-array name="sub_types">
+        <item>Mentee</item>
+        <item>Mentor</item>
+    </string-array>
+</resources>
